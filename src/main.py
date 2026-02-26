@@ -1,15 +1,4 @@
-def calcular_edad_futura(edad: int, anios: int = 10) -> int:
-    """
-    Calcula la edad futura sumando un número de años.
-    
-    :param edad: Edad actual
-    :param anios: Cantidad de años a sumar (por defecto 10)
-    :return: Edad futura
-    """
-    if edad < 0:
-        raise ValueError("La edad no puede ser negativa.")
-    return edad + anios
-
+from edad import calcular_edad_futura
 
 def obtener_edad() -> int:
     """
